@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.42857143;
+	background-color:#FFF;
+}
+
+.navbar{
+	background-color:#FFF;
+	margin-bottom: 0px;
+	color:#0b5470;
+}
+
+.navbar-brand{
+	margin-top:-13px;
+}
+
+.navbar-right a{
+	color:#0b5470;
+}
+
+
+.h1, h2, h3, h4{
+	font-family:'Oswald', sans-serif;
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.p{
+	margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.jumbotron{
+	background-image:url(../images/hero1.png);
+  	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:700px;
+	background-color:#FFF;
+	background-position:center 0;
+	
+	
+}
+
+.jumbotron h1{
+	font-family:'Oswald', sans-serif;
+	font-weight:700;
+	color:#FFF;	
+}
+
+
+.jumbotron p{
+	color:#FFF;
+}
+
+.signup-header {
+background-color: rgba(255, 255, 255, 0.5);
+min-height: 350px;
+color: #fff;
+border-radius: 5px;
+margin-bottom:20px;
+}
+
+.signup-header h2 {
+	font-family:'Oswald', sans-serif;
+    padding: 20px 0 10px;
+    color: #0b5470;
+	font-weight:700;
+}
+
+.signup-header .btn{
+	background-color:#fef035;
+	color:#0b5470;
+}
+
+
+
+.page-header{
+	text-align:center;
+	font-weight:200;
+	font-family:'Oswald', sans-serif;
+	border-bottom: 0px;
+	padding-top:5px;
+	padding-bottom:0px;
+}
+
+
+
+.colums h3{
+	color:#0b5470;
+	font-weight:400;
+
+}
+
+.colums p{
+	font-size:16px;
+	color:#647083;;
+}
+
+
+.space-pad {
+    padding-bottom:50px;
+    padding-top:50px;
+}
+
+
+.service {
+    background:	url(../images/excursioni.jpg)center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	position:relative;
+}
+
+
+
+.banner-thumbnail-wrapper .color-overlay {
+    background-color: rgba(0,0,0,.3);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+
+.header {
+    height: 450px;
+    background:	center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	color:#FFF;		
+}
+
+.title{
+
+margin: 15vh auto;
+}
+
+
+.filte.filter-color-black{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #282828;
+    opacity: .5;
+}
+
+
+
+.container-full{
+    margin-top: -5px;
+    color: #fff;
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+
+
+.container-full h1{
+	font-family:'Oswald', sans-serif;
+	font-weight:700;
+	color:#FFFC19;
+}
+
+.container-full h2{
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:600;
+	line-height: 1.42857143;
+}
+
+
+
+.chi{
+	background-image:url(../images/wave-blue.png);
+	background-position:center 0;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+
+
+.asso{
+	padding-bottom:20px;
+	max-height:120px;
+}
+
+
+
+.chi p{
+	color:#FFF;
+}
+
+.link-blue{
+	color:#FFF;
+	border-bottom: 1px solid #FFFC19;
+}
+
+
+.map{
+	max-height:680px;
+}
+
+.bg-blue{
+	background-image:url(../images/wave-short.png);
+	background-position:center 0;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+.alt1{
+	background-color:#0b5470;
+}
+
+.alt1 p{
+	color:#FFF;
+	line-height:1.7em;
+}
+
+.alt2{
+	background-color: rgba(30, 30, 30, 0.97);
+    color: #DDDDDD;
+	padding-top:10px;
+}
+
+	
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+.jumbotron h1{
+	padding-top: 250px;
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+.jumbotron h1{
+	padding-top: 280px;
+}
+
